@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.4]]></item>
+	<item id="Time"><![CDATA[2020-03-09 03:20]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://dz1.cc/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[资源重定向]]></item>
+			<item id="identifier"><![CDATA[yunling_redirect_resource]]></item>
+			<item id="description"><![CDATA[本插件可以配合域名解析，实现真正意义上的动静资源分离，且本插件可以强力压缩输出文本成一行，压缩率高达8.2%，极大节省带宽占用，为您降低带宽成本。案例一：海外主机+一个未备案域名+一个已备案二级域名，可以把解析到主机的未备案域名下的静态资源重定向到已备案域名下面，而已备案域名又可以使用国内CDN加速，这样就大大降低了服务器主机的带宽压力，并且做到了真正意义上的动静分离。案例二：把所有静态资源全部用一个域名来管理。案例三：……]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[yunling_redirect_resource/]]></item>
+			<item id="copyright"><![CDATA[云凌工作室(http://www.yun-ling.cn )]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[hookpc]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[hookpe]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3.4]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[总开关]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[switch]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[开启头像重定向]]></item>
+				<item id="description"><![CDATA[头像重定向规则同上。且开启后自动切换为静态头像调用模式]]></item>
+				<item id="variable"><![CDATA[avatar_switch]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[重定向资源后缀]]></item>
+				<item id="description"><![CDATA[用英文逗号隔开]]></item>
+				<item id="variable"><![CDATA[resource_suffix]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[css,js,jpg,jpeg,gif,ico,png,bmp,pict,csv,doc,pdf,pls,ppt,tif,tiff,eps,ejs,swf,midi,mid,ttf,eot,woff,otf,svg,svgz,webp,docx,xlsx,xls,pptx,ps,class,jar,woff2,dfont,pfa,pfb,ps3,t42,t11]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[重定向列表]]></item>
+				<item id="description"><![CDATA[被重定向域名=>用做重定向域名
+例如：a.com=>b.com
+则a.com下的静态资源就会重定向到b.com]]></item>
+				<item id="variable"><![CDATA[redirect_domain]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[开启强力压缩]]></item>
+				<item id="description"><![CDATA[压缩输出HTML成一行，去除各种无关注释等等]]></item>
+				<item id="variable"><![CDATA[open_force_zip]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[压缩成完美一行]]></item>
+				<item id="description"><![CDATA[优先开启本开关，若开启后无法压缩或者不正常则关闭此开关，本开关不生效原因可能是模板文件未缓存]]></item>
+				<item id="variable"><![CDATA[open_force_zip_one_line]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[排除页压缩面]]></item>
+				<item id="description"><![CDATA[一行一个，最前面需要正斜杠/]]></item>
+				<item id="variable"><![CDATA[expect_zip_url]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[排除重定向页面]]></item>
+				<item id="description"><![CDATA[一行一个，最前面需要正斜杠/]]></item>
+				<item id="variable"><![CDATA[expect_redirect_url]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[清除空白符的标签]]></item>
+				<item id="description"><![CDATA[正则表达式语法]]></item>
+				<item id="variable"><![CDATA[clear_html]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[html|b|font|head|header|title|button|input|select|sub|style|strong|u|nav|form|footer|p|ul|br|li|ol|table|th|tr|h[1-6]|dl|dt|dd|div|canvas|script|meta]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[清除CSS和JS的注释]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[clear_css_js_notes]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[清除HTML的注释]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[clear_html_notes]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[自定义正则替换]]></item>
+				<item id="description"><![CDATA[一行一个
+格式：正则表达式>=<替换表达式]]></item>
+				<item id="variable"><![CDATA[regexp]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>
